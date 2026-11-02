@@ -1,0 +1,447 @@
+{
+ "url": "http://127.0.0.1:43477/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Hay habitación business, standard, standard con cama extragrande, superior con vistas, premium con terraza, deluxe con salón y triple, ademá"
+    },
+    {
+     "q": "¿Tenéis suites?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Hay dos suites: la suite con vistas y la suite familiar con vistas y terraza."
+    },
+    {
+     "q": "Viajamos en familia, ¿qué opciones hay?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Para familias hay habitación triple (3 huéspedes), suite familiar con vistas y terraza (4 huéspedes) y la opción de dos habitaciones dobles "
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí. Todas las habitaciones tienen aire acondicionado, wifi gratuito, minibar y productos de cortesía."
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Sí, hay piscina exterior en temporada de verano, y jardines."
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sí, el hotel dispone de parking privado. Para indicaciones de llegada, llama al 953 74 70 19."
+    },
+    {
+     "q": "¿Hay restaurante?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sí, el Restaurante Acebuche ofrece cocina de autor con dos menús degustación y platos a la carta, también para no alojados. Abre los miércol"
+    },
+    {
+     "q": "¿Dónde se pueden tomar tapas?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "En el Bar Pacos puedes comer o cenar de manera informal, con raciones típicas de la zona, tapas, vinos para copeo y postres caseros. Tiene t"
+    },
+    {
+     "q": "¿Dónde estáis?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Estamos en la C. Canónigo Melgares Raya, 7, 23440 Baeza (Jaén), en una mansión del siglo XVI del casco antiguo, a escasos 50 metros de la ca"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar) o por teléfono en el +34 953 74 70 19. Este asistente no confirma disponibilidad ni"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar) o por teléfono en el +34 953 74 70 19. Este asistente no confirma disponibilidad ni"
+    },
+    {
+     "q": "¿Organizáis bodas?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Sí. El hotel tiene salones para reuniones, encuentros profesionales y celebraciones, y coordina celebraciones privadas, eventos corporativos"
+    },
+    {
+     "q": "¿Cuál es vuestro teléfono?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Teléfono: +34 953 74 70 19. Correo: informacionyreservas@hotelpuertadelaluna.com."
+    },
+    {
+     "q": "¿Hacéis visitas guiadas?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Sí, el hotel ofrece visitas guiadas. Consulta fechas y condiciones en el +34 953 74 70 19."
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 953 74 70 19 · informacionyreservas@hotelpuertadelaluna.com."
+    },
+    {
+     "q": "¿Tenéis campo de golf?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 953 74 70 19 · informacionyreservas@hotelpuertadelaluna.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Hay piscina?",
+    "¿Hay restaurante?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "svc3"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "There are business, standard, standard with extra-large bed, superior with views, premium with terrace, deluxe with lounge and triple rooms,"
+    },
+    {
+     "q": "Do you have suites?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "There are two suites: the suite with views and the family suite with views and terrace."
+    },
+    {
+     "q": "We are a family, what options are there?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "For families there is a triple room (3 guests), the family suite with views and terrace (4 guests) and the option of two adjoining double ro"
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Yes. All rooms have air conditioning, free wifi, minibar and complimentary toiletries."
+    },
+    {
+     "q": "Is there a pool?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Yes, there is an outdoor pool in the summer season, and gardens."
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Yes, the hotel has private parking. For directions, call +34 953 74 70 19."
+    },
+    {
+     "q": "Is there a restaurant?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Yes, the Acebuche Restaurant offers signature cuisine with two tasting menus and à la carte dishes, also for non-residents. It opens on Wedn"
+    },
+    {
+     "q": "Where can I have tapas?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "At Bar Pacos you can have an informal lunch or dinner, with typical local dishes, tapas, wines by the glass and homemade desserts. It has a "
+    },
+    {
+     "q": "Where are you?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "We are at C. Canónigo Melgares Raya, 7, 23440 Baeza (Jaén), in a 16th-century mansion in the old town, just 50 metres from the cathedral."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on their booking engine (Book button) or by phone on +34 953 74 70 19. This assistant does not confirm availability or bookings"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on their booking engine (Book button) or by phone on +34 953 74 70 19. This assistant does not confirm availability or bookings"
+    },
+    {
+     "q": "Do you host weddings?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Yes. The hotel has halls for meetings, business gatherings and celebrations, and organises private celebrations, corporate events and weddin"
+    },
+    {
+     "q": "What is your phone number?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Phone: +34 953 74 70 19. Email: informacionyreservas@hotelpuertadelaluna.com."
+    },
+    {
+     "q": "Do you offer guided tours?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Yes, the hotel offers guided tours. Ask about dates and conditions on +34 953 74 70 19."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 953 74 70 19 · informacionyreservas@hotelpuertadelaluna.com."
+    },
+    {
+     "q": "Do you have a golf course?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 953 74 70 19 · informacionyreservas@hotelpuertadelaluna.com."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Is there a pool?",
+    "Is there a restaurant?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "svc3"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il y a des chambres business, standard, standard avec lit très grand, supérieure avec vue, premium avec terrasse, deluxe avec salon et tripl"
+    },
+    {
+     "q": "Avez-vous des suites ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Il y a deux suites : la suite avec vue et la suite familiale avec vue et terrasse."
+    },
+    {
+     "q": "Nous voyageons en famille, quelles options ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Pour les familles, il y a la chambre triple (3 personnes), la suite familiale avec vue et terrasse (4 personnes) et l’option de deux chambre"
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Oui. Toutes les chambres ont la climatisation, le wifi gratuit, un minibar et des produits d’accueil."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Oui, il y a une piscine extérieure en été, et des jardins."
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Oui, l’hôtel dispose d’un parking privé. Pour l’itinéraire d’accès, appelez le +34 953 74 70 19."
+    },
+    {
+     "q": "Y a-t-il un restaurant ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Oui, le restaurant Acebuche propose une cuisine d’auteur avec deux menus dégustation et des plats à la carte, aussi pour les non-résidents. "
+    },
+    {
+     "q": "Où peut-on manger des tapas ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Au Bar Pacos, vous pouvez déjeuner ou dîner de façon informelle, avec des plats typiques de la région, des tapas, des vins au verre et des d"
+    },
+    {
+     "q": "Où êtes-vous ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Nous sommes C. Canónigo Melgares Raya, 7, 23440 Baeza (Jaén), dans une demeure du XVIe siècle de la vieille ville, à 50 mètres de la cathédr"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur leur moteur de réservation (bouton Réserver) ou par téléphone au +34 953 74 70 19. Cet assistant ne confirme ni dis"
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur leur moteur de réservation (bouton Réserver) ou par téléphone au +34 953 74 70 19. Cet assistant ne confirme ni dis"
+    },
+    {
+     "q": "Organisez-vous des mariages ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Oui. L’hôtel dispose de salons pour réunions, rencontres professionnelles et célébrations, et organise des fêtes privées, des événements d’e"
+    },
+    {
+     "q": "Quel est votre numéro de téléphone ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Téléphone : +34 953 74 70 19. E-mail : informacionyreservas@hotelpuertadelaluna.com."
+    },
+    {
+     "q": "Proposez-vous des visites guidées ?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Oui, l’hôtel propose des visites guidées. Renseignez-vous sur les dates et conditions au +34 953 74 70 19."
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 953 74 70 19 · informacionyreservas@hotelpuertadelaluna.com."
+    },
+    {
+     "q": "Avez-vous un terrain de golf ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 953 74 70 19 · informacionyreservas@hotelpuertadelaluna.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Y a-t-il une piscine ?",
+    "Y a-t-il un restaurant ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "svc3"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt Business-, Standard-, Standardzimmer mit extragroßem Bett, Superior mit Aussicht, Premium mit Terrasse, Deluxe mit Salon und Dreibet"
+    },
+    {
+     "q": "Haben Sie Suiten?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Es gibt zwei Suiten: die Suite mit Aussicht und die Familiensuite mit Aussicht und Terrasse."
+    },
+    {
+     "q": "Wir reisen als Familie, welche Optionen gibt es?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Für Familien gibt es das Dreibettzimmer (3 Gäste), die Familiensuite mit Aussicht und Terrasse (4 Gäste) und zwei nebeneinanderliegende Dopp"
+    },
+    {
+     "q": "Gibt es WLAN?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Ja. Alle Zimmer haben Klimaanlage, kostenloses WLAN, Minibar und Pflegeprodukte."
+    },
+    {
+     "q": "Gibt es einen Pool?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Ja, es gibt einen Außenpool in der Sommersaison und Gärten."
+    },
+    {
+     "q": "Gibt es Parkplätze?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Ja, das Hotel hat einen Privatparkplatz. Für die Anfahrt rufen Sie +34 953 74 70 19 an."
+    },
+    {
+     "q": "Gibt es ein Restaurant?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Ja, das Restaurant Acebuche bietet Autorenküche mit zwei Degustationsmenüs und À-la-carte-Gerichten, auch für Nicht-Hotelgäste. Geöffnet mit"
+    },
+    {
+     "q": "Wo gibt es Tapas?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "In der Bar Pacos können Sie zwanglos zu Mittag oder zu Abend essen, mit typischen Gerichten der Region, Tapas, offenen Weinen und hausgemach"
+    },
+    {
+     "q": "Wo liegt das Hotel?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Wir sind in der C. Canónigo Melgares Raya, 7, 23440 Baeza (Jaén), in einem Herrenhaus aus dem 16. Jahrhundert in der Altstadt, nur 50 Meter "
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine buchen (Schaltfläche Buchen) oder telefonisch unter +34 953 74 70 19. Dieser Assistent bestätigt weder "
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine buchen (Schaltfläche Buchen) oder telefonisch unter +34 953 74 70 19. Dieser Assistent bestätigt weder "
+    },
+    {
+     "q": "Richten Sie Hochzeiten aus?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Ja. Das Hotel hat Säle für Besprechungen, Geschäftstreffen und Feiern und organisiert private Feiern, Firmenveranstaltungen und Hochzeiten, "
+    },
+    {
+     "q": "Wie ist Ihre Telefonnummer?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Telefon: +34 953 74 70 19. E-Mail: informacionyreservas@hotelpuertadelaluna.com."
+    },
+    {
+     "q": "Bieten Sie Führungen an?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Ja, das Hotel bietet Führungen an. Termine und Bedingungen unter +34 953 74 70 19."
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 953 74 70 19 · informacionyreservas@hotelpuertadelaluna.com."
+    },
+    {
+     "q": "Haben Sie einen Golfplatz?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 953 74 70 19 · informacionyreservas@hotelpuertadelaluna.com."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Gibt es einen Pool?",
+    "Gibt es ein Restaurant?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
