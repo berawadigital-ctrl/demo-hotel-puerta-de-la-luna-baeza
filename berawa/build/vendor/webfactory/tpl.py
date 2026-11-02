@@ -40,7 +40,7 @@ section{padding:88px 0}.alt{background:#f3eee6}
 .gal img:first-child{grid-column:span 2;grid-row:span 2}
 .chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0}.chips li{background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:.9rem}
 .loc{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
-.box{background:#fff;border-radius:16px;padding:28px;border:1px solid var(--line)}.loc>*{min-width:0}.box a{overflow-wrap:anywhere}.box p{margin:.3em 0}
+.box{background:#fff;border-radius:16px;padding:28px;border:1px solid var(--line)}.loc>*{min-width:0}.box a,.loc p{overflow-wrap:anywhere}.box p{margin:.3em 0}
 footer{background:#1f1d1a;color:#d9d3c9;padding:44px 0 90px;font-size:.92rem}footer a{color:#fff}
 .demo{opacity:.6;font-size:.8rem;margin-top:18px}
 .sticky{display:none}
