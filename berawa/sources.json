@@ -1,0 +1,62 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.hotelpuertadelaluna.com/",
+ "read_at": "2026-11-02T07:23:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.hotelpuertadelaluna.com/",
+   "sha256": "9a7044008bb5d908fd90c1f1dedfe7651cdc0032deb8b3a4f23ccb0f596c23f8",
+   "chars": 6194
+  },
+  {
+   "url": "https://www.hotelpuertadelaluna.com/bar-pacos/",
+   "sha256": "57935b7bdbe9ca731f448969d9891860773911b50c6275602b4729c9a83f54e8",
+   "chars": 4047
+  },
+  {
+   "url": "https://www.hotelpuertadelaluna.com/dos-habitaciones-doble-contiguas/",
+   "sha256": "5f2bfa50483b79500bce7c0f7cf6f6f4859c7db0328bb0d171fa7d78c1c91973",
+   "chars": 2047
+  },
+  {
+   "url": "https://www.hotelpuertadelaluna.com/en/",
+   "sha256": "5a7caba7cd10026d25199aecb3e03486e7951cbf1ca736ad9df6306153093be0",
+   "chars": 4742
+  },
+  {
+   "url": "https://www.hotelpuertadelaluna.com/habitaciones/",
+   "sha256": "c7672e4962f84db54b8e8e9a3677cae3b7522e0e3b4567bc7470786c1817862d",
+   "chars": 2669
+  },
+  {
+   "url": "https://www.hotelpuertadelaluna.com/restaurante-baeza-acebuche/",
+   "sha256": "494b0b7f6f732ca8694af0415a2976a0f69757a8154d10c4fb3cd74665262c2c",
+   "chars": 10684
+  },
+  {
+   "url": "https://www.hotelpuertadelaluna.com/rooms/habitacion-triple/",
+   "sha256": "173c2e8c359536d6a83b67350485422ee85c29aa3b76928ce53b92b17b71f70f",
+   "chars": 2273
+  },
+  {
+   "url": "https://www.hotelpuertadelaluna.com/rooms/suite-familiar-con-vistas-y-terraza/",
+   "sha256": "e7e5429ae74d2cef1097fabd5931c3f7e88861ffac75ac2cf6c542adf39e25f1",
+   "chars": 2537
+  },
+  {
+   "url": "https://www.hotelpuertadelaluna.com/salones-eventos-baeza/",
+   "sha256": "e5ad818e9d6946ecb5f5ead721fa2ae80162ae6ad5bff96ea9bef68c5f1cf04d",
+   "chars": 3256
+  }
+ ],
+ "other_pages_read": [
+  "https://www.hotelpuertadelaluna.com/rooms/habitacion-business/",
+  "https://www.hotelpuertadelaluna.com/rooms/habitacion-deluxe-con-salon/",
+  "https://www.hotelpuertadelaluna.com/rooms/habitacion-premium-con-terraza/",
+  "https://www.hotelpuertadelaluna.com/rooms/habitacion-standard-con-cama-extragrande/",
+  "https://www.hotelpuertadelaluna.com/rooms/habitacion-standard/",
+  "https://www.hotelpuertadelaluna.com/rooms/habitacion-superior-con-vistas/",
+  "https://www.hotelpuertadelaluna.com/rooms/suite-vistas/"
+ ]
+}

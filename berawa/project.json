@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-puerta-de-la-luna-baeza",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-11-02T07:22:00+01:00",
+ "updated_at": "2026-11-02T07:32:00+01:00",
+ "business": {
+  "name": "Hotel Puerta de la Luna",
+  "legal_name": "Hotel Acebuche S.L., CIF B23431760 (aviso legal de su web)",
+  "registry_ids": [
+   "B23431760"
+  ],
+  "url": "https://www.hotelpuertadelaluna.com/",
+  "domain": "hotelpuertadelaluna.com",
+  "municipality": "Baeza",
+  "province": "Jaén",
+  "address": "C. Canónigo Melgares Raya, 7 · 23440 Baeza (Jaén)",
+  "phones": [
+   "+34 953 74 70 19"
+  ],
+  "emails": [
+   "informacionyreservas@hotelpuertadelaluna.com"
+  ],
+  "sector": "hotel con encanto en una mansion del siglo XVI en el casco antiguo de Baeza"
+ },
+ "rating": {
+  "value": 4.4,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por tel, web)",
+  "url": "https://www.google.com/maps/place/Puerta+de+La+Luna+%7C+Hotel+Baeza/@37.9898634,-3.4697906,17z",
+  "date": "2026-10-29",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "en",
+  "fr",
+  "de"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": "https://hotelpuertadelaluna.booking-channel.com/disponibilidad.html",
+  "note": "motor booking-channel enlazado desde su web: disponibilidad.html (es) y EN/availability.html (en; el motor solo tiene ES y EN, se usa EN para fr/de). HTTP 200 los dos (02/11/2026 07:22)."
+ },
+ "audit_original": {
+  "url": "https://www.hotelpuertadelaluna.com/",
+  "date": "2026-11-02T07:22:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}

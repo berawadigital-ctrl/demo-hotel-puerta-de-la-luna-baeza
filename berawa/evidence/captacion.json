@@ -1,0 +1,31 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "hotel-puerta-de-la-luna-baeza",
+ "maps": {
+  "fecha": "2026-10-29T16:38:28+01:00",
+  "estado": "LEIDA",
+  "ficha": "Puerta de La Luna | Hotel Baeza",
+  "nota": 4.4,
+  "coincide": {
+   "tel": true,
+   "web": true,
+   "dir": false
+  },
+  "url": "https://www.google.com/maps/place/Puerta+de+La+Luna+%7C+Hotel+Baeza/@37.9898634,-3.4697906,17z/data=!4m9!3m8!1s0xd6e8ba2b6b426d1:0xe09d24571d9e4043!5m2!4m1!1i2!8m2!3d37.9898634!4d-3.4697906!16s%2Fg%2F1tj9vphp",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-29T16:38:28+01:00",
+  "veredicto": "DUDOSA",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "Hotel Acebuche S.L.",
+  "cif": "B23431760",
+  "fuente": "aviso legal de https://www.hotelpuertadelaluna.com/aviso-legal/",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "un solo hotel (la web no presenta otros centros)"
+ }
+}
