@@ -1,5 +1,5 @@
 {
- "total": 112,
+ "total": 108,
  "fallos": [],
  "detalle": [
   {
@@ -724,16 +724,6 @@
   },
   {
    "vp": "movil",
-   "l": "es",
-   "sel": "p[data-t=\"loc_p\"]",
-   "color": "rgb(31, 29, 26)",
-   "size": 16,
-   "peor_contraste": 15.87,
-   "minimo": 4.5,
-   "ok": true
-  },
-  {
-   "vp": "movil",
    "l": "en",
    "sel": "#menub",
    "color": "rgb(255, 255, 255)",
@@ -854,16 +844,6 @@
   },
   {
    "vp": "movil",
-   "l": "en",
-   "sel": "p[data-t=\"loc_p\"]",
-   "color": "rgb(31, 29, 26)",
-   "size": 16,
-   "peor_contraste": 15.87,
-   "minimo": 4.5,
-   "ok": true
-  },
-  {
-   "vp": "movil",
    "l": "fr",
    "sel": "#menub",
    "color": "rgb(255, 255, 255)",
@@ -984,16 +964,6 @@
   },
   {
    "vp": "movil",
-   "l": "fr",
-   "sel": "p[data-t=\"loc_p\"]",
-   "color": "rgb(31, 29, 26)",
-   "size": 16,
-   "peor_contraste": 15.87,
-   "minimo": 4.5,
-   "ok": true
-  },
-  {
-   "vp": "movil",
    "l": "de",
    "sel": "#menub",
    "color": "rgb(255, 255, 255)",
@@ -1109,16 +1079,6 @@
    "color": "rgb(255, 255, 255)",
    "size": 18.4,
    "peor_contraste": 19.79,
-   "minimo": 4.5,
-   "ok": true
-  },
-  {
-   "vp": "movil",
-   "l": "de",
-   "sel": "p[data-t=\"loc_p\"]",
-   "color": "rgb(31, 29, 26)",
-   "size": 16,
-   "peor_contraste": 15.87,
    "minimo": 4.5,
    "ok": true
   }

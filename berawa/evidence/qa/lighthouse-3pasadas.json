@@ -6,23 +6,23 @@
     "accessibility": 100,
     "best-practices": 100,
     "seo": 58,
-    "lcp_s": 1.51,
-    "lh": "13.6.0"
-   },
-   {
-    "performance": 100,
-    "accessibility": 100,
-    "best-practices": 100,
-    "seo": 58,
-    "lcp_s": 1.5,
-    "lh": "13.6.0"
-   },
-   {
-    "performance": 100,
-    "accessibility": 100,
-    "best-practices": 100,
-    "seo": 58,
     "lcp_s": 1.43,
+    "lh": "13.6.0"
+   },
+   {
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 58,
+    "lcp_s": 1.48,
+    "lh": "13.6.0"
+   },
+   {
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 58,
+    "lcp_s": 1.47,
     "lh": "13.6.0"
    }
   ],
@@ -44,7 +44,7 @@
     "accessibility": 100,
     "best-practices": 100,
     "seo": 58,
-    "lcp_s": 0.37,
+    "lcp_s": 0.32,
     "lh": "13.6.0"
    },
    {
@@ -52,7 +52,7 @@
     "accessibility": 100,
     "best-practices": 100,
     "seo": 58,
-    "lcp_s": 0.37,
+    "lcp_s": 0.32,
     "lh": "13.6.0"
    },
    {

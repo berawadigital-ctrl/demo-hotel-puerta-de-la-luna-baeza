@@ -1,19 +1,19 @@
 {
- "zip_sha256": "e0deb9ce83ac02441be2538954c19760514ac755a759024f243d56d635be7580",
+ "zip_sha256": "16ae1820c9045d3b3d04662cf41399f9a5bb6aac0608b07f2f472edd8b5ef66f",
  "zip_determinista": true,
  "zip_en_git_igual": true,
  "zip_ficheros_distintos_de_la_rama": [],
  "zip_run_checks_ok": true,
  "zip_check_kb_ok": true,
  "clon_ok": true,
- "clon_head": "418037a0b42eed84796d06cce5082f4889ec31cf",
+ "clon_head": "a0f8e5e3b62600820ef38330e02fd88fda914b9b",
  "check_kb_ok": true,
  "rg_workspace_vacio": true,
  "git_diff_check_ok": true,
  "viewports": {
   "movil": {
-   "desbordamiento_horizontal_px": 16,
-   "altura_pagina": 5549
+   "desbordamiento_horizontal_px": 0,
+   "altura_pagina": 5576
   },
   "escritorio": {
    "desbordamiento_horizontal_px": 0,

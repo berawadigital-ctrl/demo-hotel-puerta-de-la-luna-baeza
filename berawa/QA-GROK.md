@@ -2,9 +2,9 @@
 
 Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-QA-CHECKLIST.md`) pasados por Grok antes del PR. **No es una auditoría independiente ni una aprobación**: Codex solo audita una muestra y nada se publica ni se envía sin visto bueno de Juan.
 
-- Rama: `demo/hotel-puerta-de-la-luna-baeza` · HEAD de las pruebas: `418037a0b42eed84796d06cce5082f4889ec31cf` · fecha: 02/11/2026 07:24 (Europe/Madrid)
+- Rama: `demo/hotel-puerta-de-la-luna-baeza` · HEAD de las pruebas: `a0f8e5e3b62600820ef38330e02fd88fda914b9b` · fecha: 02/11/2026 08:44 (Europe/Madrid)
 - Entorno: Chromium de Playwright (instalado por `playwright install chromium` en el clon limpio), axe-core 4.14.0, Lighthouse 13.6.0 (3 pasadas, mediana).
-- Resultado: **QA_GROK_FAIL**
+- Resultado: **QA_GROK_PASS**
 - Negocio medido: Maps 4.4 (LEIDA, coincide tel, web) · web original: LCP > 4 s · titular Hotel Acebuche S.L. (persona jurídica, sin cadena).
 
 ## Controles A1–A11
@@ -25,12 +25,12 @@ Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-
 ## Checklist C01–C16
 | Código | Control | Resultado | Evidencia |
 |---|---|---|---|
-| C01 | Repositorio y SHA | **CUMPLE** | HEAD del clon limpio = 418037a0b42eed84796d06cce5082f4889ec31cf (el SHA final del PR es el del commit que añade este informe) |
+| C01 | Repositorio y SHA | **CUMPLE** | HEAD del clon limpio = a0f8e5e3b62600820ef38330e02fd88fda914b9b (el SHA final del PR es el del commit que añade este informe) |
 | C02 | Identidad y fuentes | **CUMPLE** | nombre, teléfono, dirección y datos comerciales con cita literal en berawa/knowledge.json; titular persona jurídica sin cadena y nota de Maps en berawa/evidence/captacion.json |
 | C03 | Licencias | **CUMPLE** | asset_manifest.json: ilustraciones propias generadas (origin=generated) y fuente Cormorant OFL; ninguna imagen, logo ni vídeo del negocio |
 | C04 | Diseño personalizado y no suplantador | **CUMPLE** | paleta e ilustraciones propias, aviso «Propuesta de rediseño independiente, no oficial» arriba y en el pie, sin logo ni marca del negocio; revisión visual de qa/capturas/ |
-| C05 | Móvil 375 px en navegador real | **NO** | qa/capturas/movil-*.png; desbordamiento horizontal 16 px; axe y teclado en 375 px |
-| C06 | Escritorio 1280 px en navegador real | **NO** | qa/capturas/escritorio-*.png; desbordamiento horizontal 0 px; axe y teclado en 1280 px |
+| C05 | Móvil 375 px en navegador real | **CUMPLE** | qa/capturas/movil-*.png; desbordamiento horizontal 0 px; axe y teclado en 375 px |
+| C06 | Escritorio 1280 px en navegador real | **CUMPLE** | qa/capturas/escritorio-*.png; desbordamiento horizontal 0 px; axe y teclado en 1280 px |
 | C07 | Español completo, botones y chatbot | **CUMPLE** | qa/chat-i18n.json (es) |
 | C08 | Alemán completo, botones y chatbot | **CUMPLE** | qa/chat-i18n.json (de) |
 | C09 | Inglés completo, botones y chatbot | **CUMPLE** | qa/chat-i18n.json (en) |

@@ -1,4 +1,4 @@
-HEAD 418037a0b42eed84796d06cce5082f4889ec31cf
+HEAD a0f8e5e3b62600820ef38330e02fd88fda914b9b
 OK    check_kb (citas + regla de precios P1-P6) sobre berawa/knowledge.json
 OK    tests_hotel_puerta_de_la_luna_baeza: 4 idiomas + chatbot contra la base (HTTP)
 OK    a11y_test: axe-core + teclado (HTTP)
